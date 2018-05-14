@@ -1,0 +1,22 @@
+<project>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>2.0.3</version>
+      </plugin>
+    </plugins>
+	
+	<includeTarget>false</includeTarget>
+	<includes>
+	  <include>target/myapp.jar</include>
+	</includes>
+	
+	<configuration>
+		<processTypes>
+			<web>java -jar target/my-app-1.0.jar</web>
+		</processTypes>
+	</configuration>
+  </build>
+</project>
