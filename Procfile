@@ -1,1 +1,1 @@
-web: target/WebServer -Dhttp.port=${PORT} ${JAVA_OPTS}
+web: java -jar target/myapp.jar
