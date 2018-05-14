@@ -10,7 +10,7 @@ public class WebServer
 {
 	public static void main(String[] args)
 	{
-		int port = 9000;
+		int port = 5000;
 		HttpServer server;
 		try
 		{
