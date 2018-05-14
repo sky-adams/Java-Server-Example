@@ -15,7 +15,7 @@
 	
 	<configuration>
 		<processTypes>
-			<web>java -jar target/my-app-1.0.jar</web>
+			<web>java -jar target/myapp.jar</web>
 		</processTypes>
 	</configuration>
   </build>
